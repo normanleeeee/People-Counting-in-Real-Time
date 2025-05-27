@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "bcc8486e-6231-447a-bd62-d32b31480ff8",
             "zIndex": -1,
+            "id": "bcc8486e-6231-447a-bd62-d32b31480ff8",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Generic Trust Boundary",
@@ -59,8 +59,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "319372f6-92bf-4919-bed3-3c1a0f4880d4",
             "zIndex": -1,
+            "id": "319372f6-92bf-4919-bed3-3c1a0f4880d4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Authorization \nService Trust \nBoundary",
@@ -85,8 +85,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "9c81502e-9ed6-4619-aa97-bd29b23356dd",
             "zIndex": -1,
+            "id": "9c81502e-9ed6-4619-aa97-bd29b23356dd",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Directory \nServices Trust \nBoundary",
@@ -116,6 +116,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -199,7 +200,6 @@
               ]
             },
             "id": "fbf57f7d-d871-4317-9c9d-c3d51b89f448",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Browser Client",
@@ -232,6 +232,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -315,7 +316,6 @@
               ]
             },
             "id": "444e5779-30c5-4f9e-a628-ff772abcc58f",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Authorization Provider",
@@ -348,6 +348,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -431,7 +432,6 @@
               ]
             },
             "id": "fbede27d-e7fc-468d-8cd2-4349c8f436d8",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "LDAP",
@@ -464,6 +464,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -547,7 +548,6 @@
               ]
             },
             "id": "3ae5a605-cff0-49c7-b9c7-bb0d8ccc3702",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Handle Feedback Submission",
@@ -586,6 +586,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -669,7 +670,6 @@
               ]
             },
             "id": "944bfb55-8c11-4875-bbbd-2f6463c9c31f",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Feedback Comment Store",
