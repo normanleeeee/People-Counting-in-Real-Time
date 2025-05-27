@@ -11,10 +11,10 @@
     "diagrams": [
       {
         "id": 0,
-        "title": "New CIA diagram",
-        "diagramType": "CIA",
-        "placeholder": "New CIA diagram description",
-        "thumbnail": "./public/content/images/thumbnail.cia.jpg",
+        "title": "ITSECWB_SalasN_Activity2",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
         "cells": []
       }
